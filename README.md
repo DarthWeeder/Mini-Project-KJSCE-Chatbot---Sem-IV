@@ -32,7 +32,9 @@ BackEnd: MySQL and PHP through XAMPP server
 
 References:
 
-https://kjsce.somaiya.edu/en
-https://www.boardinfinity.com/blog/top-10-prize-winning-hackathon-project-ideas-3/amp/
-https://deliverypdf.ssrn.com/delivery.php?ID=974110106091099109027107094092020090122078057047002065122086021091105004018031077096060017121055126111014099106121001118106004041053089019092098125031093110020076110064034002000021064010065030100067089114104120090096093090112001064122111079125116081072&EXT=pdf&INDEX=TRUE
-https://towardsdatascience.com/chatbots-natural-language-search-cc097f671b2b
+1. https://kjsce.somaiya.edu/en
+2. https://www.boardinfinity.com/blog/top-10-prize-winning-hackathon-project-ideas-3/amp/
+3. https://deliverypdf.ssrn.com/delivery.php?ID=974110106091099109027107094092020090122078057047002065122086021091105004018031077096060017121055126111014099106121001118106004041053089019092098125031093110020076110064034002000021064010065030100067089114104120090096093090112001064122111079125116081072&EXT=pdf&INDEX=TRUE
+4. https://towardsdatascience.com/chatbots-natural-language-search-cc097f671b2b
+5. https://www.w3schools.com/MySQL/default.asp
+6. https://www.w3schools.com/php/default.asp
