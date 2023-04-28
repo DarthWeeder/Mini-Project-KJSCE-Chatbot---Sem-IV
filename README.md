@@ -38,3 +38,4 @@ References:
 4. https://towardsdatascience.com/chatbots-natural-language-search-cc097f671b2b
 5. https://www.w3schools.com/MySQL/default.asp
 6. https://www.w3schools.com/php/default.asp
+7. https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started
