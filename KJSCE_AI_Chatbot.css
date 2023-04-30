@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height:100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    
+}
+
+body{
+    background-image:linear-gradient(rgba(28, 29, 30, 0.7),rgba(32, 33, 34, 0.7)),url(som2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.nav-link{
+    list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+nav img{
+    width:300px;
+}
+
+.nav-link li{
+    list-style:none;
+    display: inline-block;
+    padding: 100px 34px;
+    position: relative;
+}
+
+.nav-link li a{
+    color:rgb(248, 5, 5);
+    font-weight:bolder;
+    text-decoration:none;
+    font-size:22.5px;
+}
+
+.nav-link li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:rgb(255, 0, 0);
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+
+.nav-link li:hover::after{
+    width:80%;
+}
+
+.home{
+    margin-bottom: 5%;
+    padding: 30px;
+    padding-top:10px;
+}
+
+.text{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    margin-top: 18%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    column-gap:25px;
+    align-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;;
+    font-size: 35px;
+    margin-bottom: 2%;
+    color:rgb(238, 90, 64);
+
+}
+
+h2{
+    color:#ffffff;
+    font-size:medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3,p{
+    text-shadow: 0 0 5px #999;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    margin-top:3%;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsla(0, 80%, 44%, 0.719);
+    color: hsl(0, 0%, 100%);
+    cursor:pointer;
+    box-shadow: rgba(222, 22, 22, 0.742) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsla(0, 80%, 44%, 0.719);
+    color: hsl(0, 0%, 100%);
+    box-shadow: hsla(0, 80%, 44%, 0.719);
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+.card1{
+    width: 200px;
+    height: 300px;
+    border-radius:20px;
+    padding:20px 20px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin: 10px 10px;
+    background-image:linear-gradient(to right, rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1)),url(home_1.jpg);
+    background-position: center;
+    background-size: cover;
+    color:#000000;
+    font-weight: bolder;
+    transition: transform 1.0s;
+}
+
+.card2{
+    width: 200px;
+    height: 300px;
+    border-radius:20px;
+    padding:20px 20px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin: 10px 10px;
+    background-image:linear-gradient(to right, rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1)),url(home_2.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    color:#000000;
+    font-weight: bolder;
+    transition: transform 1.0s;
+}
+
+.card3{
+    width: 200px;
+    height: 300px;
+    border-radius:20px;
+    padding:20px 20px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin: 10px 10px;
+    background-image:linear-gradient(to right, rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1)),url(home_3.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    color:#000000;
+    font-weight: bolder;
+    transition: transform 1.0s;
+}
+
+
+.textie_1{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.card1:hover,.card2:hover,.card3:hover{
+    transform:translateY(-30px);
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity:0;
+
+    }
+    0%{
+        transform:translate(100px);
+        opacity:1;
+    }
+}
+
+
+.text{
+    padding:5px 5px;
+}
+
+
