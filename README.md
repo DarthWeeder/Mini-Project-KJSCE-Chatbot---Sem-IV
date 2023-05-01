@@ -8,10 +8,10 @@ Members:
 3. Kashvi Mody
 
 Domain: 
-Artificial Intelligence and Web Development
+Web Development
 
 Abstract:
-AI Chatbot to easily access K.J. Somaiya College of Engineering resources. The K.J. Somaiya College of Engineering website provides the access to the various forms and documents required by the students and faculty of all years. 
+Chatbot to easily access K.J. Somaiya College of Engineering resources. The K.J. Somaiya College of Engineering website provides the access to the various forms and documents required by the students and faculty of all years. 
 In the KJSCE website, there are multiple tabs and within them there are multiple pages through which one has to travel in order to acquire the required document.
 
 Scope:
@@ -27,7 +27,7 @@ Target Audience:
 This web application is aimed at helping the faculty as well as the students of KJ Somaiya College of Engineering by providing them the apt document without multiple redirections. 
 
 Tech Stack:
-FrontEnd: HTML, CSS, Bootstrap, JavaScript, 
+FrontEnd: HTML, CSS, Bootstrap,
 BackEnd: MySQL and PHP through XAMPP server 
 
 References:
